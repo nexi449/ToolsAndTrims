@@ -1,0 +1,39 @@
+site_name: Tools & Trims Wiki
+site_description: Player guide for the Tools & Trims Minecraft mod.
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.images
+
+nav:
+  - Home: index.md
+  - Install: install.md
+  - Using the mod: using-the-mod.md
+  - Recipes: recipes.md
+  - Help: help.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true

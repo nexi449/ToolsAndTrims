@@ -1,7 +1,11 @@
-# Keep the GitHub repository limited to Java source files.
+# Keep GitHub limited to Java source, license, and player documentation.
 /*
 !/.gitignore
+!/LICENSE
+!/.readthedocs.yaml
+!/mkdocs.yml
 !/src/
+!/docs/
 
 /src/*
 !/src/legacy/
@@ -18,3 +22,9 @@
 /src/main/java/**
 !/src/main/java/**/
 !/src/main/java/**/*.java
+
+/docs/**
+!/docs/**/
+!/docs/**/*.md
+!/docs/**/*.svg
+!/docs/**/requirements.txt
