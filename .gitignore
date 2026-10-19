@@ -27,4 +27,5 @@
 !/docs/**/
 !/docs/**/*.md
 !/docs/**/*.svg
+!/docs/**/*.css
 !/docs/**/requirements.txt
