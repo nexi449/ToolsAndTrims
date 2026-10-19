@@ -1,0 +1,20 @@
+# Keep the GitHub repository limited to Java source files.
+/*
+!/.gitignore
+!/src/
+
+/src/*
+!/src/legacy/
+!/src/main/
+
+/src/legacy/*
+!/src/legacy/java/
+/src/main/*
+!/src/main/java/
+
+/src/legacy/java/**
+!/src/legacy/java/**/
+!/src/legacy/java/**/*.java
+/src/main/java/**
+!/src/main/java/**/
+!/src/main/java/**/*.java
