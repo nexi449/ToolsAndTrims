@@ -3,6 +3,7 @@
   --md-primary-fg-color--light: #9acb89;
   --md-primary-fg-color--dark: #639252;
   --md-accent-fg-color: #7db76a;
+  --md-typeset-a-color: #7db76a;
 }
 
 [data-md-color-scheme="slate"] {
@@ -10,4 +11,15 @@
   --md-primary-fg-color--light: #9acb89;
   --md-primary-fg-color--dark: #639252;
   --md-accent-fg-color: #7db76a;
+  --md-typeset-a-color: #7db76a;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active,
+.md-nav__link--active,
+.md-nav__link:focus {
+  color: #7db76a;
 }
