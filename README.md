@@ -48,7 +48,7 @@ Future updates are planned to introduce trims for Maces, Tridents, Bows, and Cro
 - [Contact](https://nexi499.de)
 
 ---
-
+ 
 ## License
 
 Tools & Trims is licensed under the [ARR License](https://github.com/nexi449/ToolsAndTrims/blob/main/LICENSE).
